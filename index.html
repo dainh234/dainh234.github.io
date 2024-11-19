@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            html {
+                font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+                margin-left: 17%;
+                margin-right: 17%;
+                color: #fffefe;
+                background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230530/pngtree-healthy-food-background-for-recipes-photo-image_2836323.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-position: center ;
+            }
+            a:link {color:#000000;text-decoration: none;}
+            a:visited {color:#000000;}
+            th:hover {background-color: #797979;}
+            table {
+                width: 100%;
+                height: 60px;
+                font-size: 20px;
+            }
+            #rtabla {
+                border: #ffffff 1px solid;
+            }
+            .rth {
+                border: #ffffff 1px solid;
+            }
+            .rth:hover {background-color: #7ab978;}
+            td, th {
+                background-color: #7ab978;
+            }
+            #img {
+                padding-bottom: 5%;
+            }    
+            .img-principal {
+                width: 100%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                border: #ffffff 2px solid;
+            }
+            .img-izquierda {
+                padding-right: 5%;
+                width: 50%;
+                height: 10%;
+                float: left;
+            }
+            .img-derecha {
+                padding-left: 5%;
+                width: 50%;
+                height: 10%;
+                float: right;
+            }
+            h1 {
+                margin-left: -20%;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 800%;
+                text-shadow: 5px 1px #7ab978;
+            }
+            .h2-arriba {
+                background-color: #4e9e4b;
+                border-start-start-radius: 50%;
+                border-start-end-radius: 50%;
+                font-size: 50px;
+            }
+            .h2-fondo {
+                background-color: #4e9e4b;
+                border-bottom-left-radius: 50%;
+                border-bottom-right-radius: 50%;
+                font-size: 50px;
+            }
+            h3 {
+                font-style:oblique;
+                padding-top: 5%;
+                padding-left: 2%;
+                padding-right: 2%;
+                font-size: 40px;
+            }
+            p {
+                padding-top: 5%;
+                padding-left: 5%;
+                padding-right: 5%;
+                font-size: 30px;
+                text-align: justify;
+            }
+            .apartados-recetas {
+                font-weight: bold;
+                font-style: italic;
+            }
+            .listas {
+                padding-right: 15%;
+                padding-left: 15%;
+                padding-bottom: 5%;
+                font-size: 30px;
+            }
+            .textos {
+                padding-bottom: 5%;
+            }
+            #ch-1,#ch-2,#ch-3{
+                display:none;
+            }
+            #ch-1:checked ~.contenido {
+                display: block;
+            }
+            #ch-2:checked ~.contenido {
+                display: block;
+            }
+            #ch-3:checked ~.contenido {
+                display: block;
+            }
+            .contenido {
+                background-color: #7ab978;
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><center>RECETAS MEDITERRANEAS</center></h1>
+        <table>
+            <thead>
+                <tr>
+                    <th><a href="#introduccion">INTRODUCCIÓN</a></th>
+                    <th><a href="#recetas">RECETAS</a></th>
+                    <th><a href="#preguntas">PREGUNTAS</a></th>
+                </tr>
+            </thead>
+        </table>
+        <center><a href="https://dietamediterranea.com/nutricion-saludable-ejercicio-fisico/">
+        <img class="img-principal" src="https://cdn.businessinsider.es/
+sites/navi.axelspringer.es/public/media/image/2020/
+11/dieta-mediterranea-2140809.jpg?tf=3840x" 
+alt="Dieta mediterranea" width="90%" height="100%"></a></center>
+        <div>
+            <input id="ch-1" type="checkbox">
+            <label for="ch-1"><h2 id="introduccion" class="h2-arriba"><center>Introducción</center></h2></label>
+            <div class="contenido">
+                <p>La dieta mediterránea es un patrón alimentario tradicional originario de
+                los países que rodean el mar Mediterráneo, como España, Italia, Grecia y
+                el sur de Francia. Se caracteriza por un alto consumo de frutas, verduras,
+                legumbres, frutos secos, aceite de oliva y cereales integrales, acompañado
+                de un consumo moderado de pescado y mariscos, y una baja ingesta de carnes
+                rojas y procesadas. Además, se destaca por el consumo frecuente de hierbas
+                y especias para sazonar los alimentos, reduciendo así el uso de sal. Este
+                estilo de alimentación no solo es reconocido por su sabor y frescura,
+                sino también por sus beneficios para la salud. Diversos estudios científicos
+                han demostrado que la dieta mediterránea contribuye a la prevención de enfermedades
+                crónicas como enfermedades cardiovasculares, diabetes tipo 2 y ciertos tipos de cáncer.
+                Además, se ha vinculado con una mayor longevidad y una mejor calidad de vida.
+                La importancia de la dieta mediterránea radica en su enfoque equilibrado,
+                que promueve una alimentación rica en nutrientes esenciales y grasas saludables,
+                mientras fomenta un estilo de vida activo y una relación más saludable con la comida.
+                Además ha sido declarada patrimonio de la humanidad.
+            </p>
+                <center><a href="https://www.edualimentaria.com/alimentacion-saludable-dieta-mediterranea/historia-origen">
+                <img id="img" src="https://edualimentaria.com/images/dieta-mediterranea/cuenca-mediterraneo.png" 
+                alt="Mapa Mediterráneo" width="80%"></a></center>
+            </div>
+
+            <h2 class="h2-fondo"><center>-</center></h2>
+        </div>
+        
+        <div class="tarjeta">
+            <input id="ch-2" type="checkbox">
+            <label for="ch-2"><h2 id="recetas" class="h2-arriba"><center>Recetas</center></h2></label>
+            <div class="contenido">
+                <h3><center>Ensalada Griega</center></h3>
+                <p>
+                <img class="img-izquierda" src="https://i.blogs.es/b95a
+9e/ensalada-griega-1a/1366_2000.jpg" alt="Ensalada Griega">
+                La griega es una ensalada muy completa, pero sobre todo, muy jugosa e hidratante,
+                por lo que está especialmente indicada para días de calor como los que ahora
+                asolan gran parte de la península, con los grillos como cantinela de fondo.</p>
+                <p class="apartados-recetas">Ingredientes 4 raciones:</p>
+                <ul class="listas">
+                    <li> 4 Tomates</li>
+                    <li> 2 Pepinos</li>
+                    <li> 1 Cebolla Roja</li>
+                    <li> 1/2 Bote de Aceitunas (200gr)</li>
+                    <li> 150 gr Queso Feta</li>
+                    <li> Orégano</li>
+                    <li> Aceite de Oliva al gusto</li>
+                    <li> Sal y Pimenta al gusto</li>
+                </ul>
+                <p class="apartados-recetas">Preparación:</p>
+                <ol class="listas">
+                    <li> Corta los tomates, pepinos y cebolla en trozos.</li> 
+                    <li>Mezcla todos los ingredientes en un bol, añade
+                        el queso feta desmenuzado.</li>
+                    <li> Aliña con aceite de oliva, orégano, sal y pimienta al gusto.</li>
+                </ol>
+            </div>
+            <div class="contenido">
+                <h3><center>Pasta con Pesto y Verduras</center></h3>
+                <p>
+                <img class="img-derecha" src="https://www.hogarmania.com/archivos/
+201409/5419-1-tallarines-con-verduras-y-salsa-pesto-804-xl-1280x720x80xX.jpg" alt="Pasta con Pesto
+                y Verduras">
+                Este plato, está cocinado con una base de Pastas y pertenece a los platos
+                de la cocina Vegetariana. Por regla general se consume, principalmente,
+                durante todo el año, y se suele servir a los comensales como Primer plato.
+                Estos espaguetis constituyen un plato muy energético y nutritivo, y nos van
+                a proporcionar una importante cantidad de hidratos de carbono complejos,
+                así como de vitaminas, minerales y compuestos antioxidantes.</p>
+                <p class="apartados-recetas">Ingredientes 4 raciones:</p>
+                <ul class="listas">
+                    <li> 500 gr Pasta Integral</li>
+                    <li> 20 gr Albahaca fresca</li>
+                    <li> 50 gr Pillones</li>
+                    <li> 4 Dientes de Ajo</li>
+                    <li> Aceite de Oliva al gusto</li>
+                    <li> Queso Parmesano</li>
+                    <li> 1 Calabacín</li>
+                    <li> 4 Pimientos</li>
+                </ul>
+                <p class="apartados-recetas">Preparación:</p>
+                <ol class="listas">
+                    <li> Cocine la pasta según las instrucciones que vienen en su 
+                    paquete</li> 
+                    <li>Para el pesto, mezcla albahaca, piñones, ajo, aceite
+                    de oliva y queso parmesano en un procesador hasta que quede
+                    una pasta homogénea.</li>
+                    <li> Corte las verduras en rodajas y salteeslas.</li>
+                    <li>Una vez que la pasta y las verduras estén hechas, mezclar todo y servir.</li>
+                </ol>
+            </div>
+            <div class="contenido">
+                <h3><center>Salmón a la Parrilla con Limón y Hierbas</center></h3>
+                <p>
+                <img class="img-izquierda" src="https://media.zummocorp.com/Recetas/
+salmon-parrilla-salsa-limon-receta-zummo-5-1691228363bE9Kb.webp" 
+                alt="Salmón a la Parrilla con Limón y Hierbas">
+                Disfruta de un delicioso salmón a la barbacoa con un toque de aceite de oliva virgen extra
+                de aerosol AL Gusto sabor barbacoa. Acompañado de una refrescante salsa de limón y hierbas,
+                esta receta resalta los sabores ahumados del salmón y le agrega una combinación de aromas
+                frescos. ¡Una opción perfecta para una comida nutritiva y sabrosa!</p>
+                <p>Esto es así porque, además de delicioso, es un pescado rico en nutrientes
+                y grasas saludables que lo convierten en un alimento muy beneficioso
+                para la salud y con numerosas propiedades.</p>
+                <p class="apartados-recetas">Ingredientes 4 raciones:</p>
+                <ul class="listas">
+                    <li> 4 filetes de salmón</li>
+                    <li> 2 limones (jugo y ralladura)</li>
+                    <li> 4 cucharadas de aceite de oliva</li>
+                    <li> 2 dientes de ajo (picados)</li>
+                    <li> 1 cucharadita de romero fresco (picado)</li>
+                    <li> 1 cucharadita de tomillo fresco (picado)</li>
+                    <li> 1 cucharadita de perejil fresco (picado)</li>
+                    <li> Sal y Pimenta al gusto</li>
+                </ul>
+                <p class="apartados-recetas">Preparación:</p>
+                <ol class="listas">
+                    <li> Lo primero que haremos será precalentar la parrilla
+                    a fuego medio alto. Mientras tanto, exprimimos el limón y
+                    rallamos la corteza.</li> 
+                    <li>En un bol pequeño, mezclamos el aceite de oliva, el jugo
+                        de limón, la ralladura de limón, el ajo picado, la sal y
+                        la pimienta. Removemos bien, hasta que tengamos una
+                        emulsión.</li>
+                    <li> Disponemos los filetes de salmón sobre una fuente o
+                    sobre un papel de aluminio y, con un pincel de cocina,
+                    lo untamos bien por ambos lados com la mezcla del aceite
+                    y limón. A continuación, los colocamos directamente sobre
+                    la parrilla ya bien caliente. ¡Comienza la magia!</li>
+                    <li>Cocinamos durante 4-5 minutos por cada lado o hasta que
+                    el salmón a la parrilla esté "sellado" (se vea opaco) por
+                    ambos lados y se desprenda fácilmente con un tenedor.
+                    Evitar voltear el salmón con demasiada frecuencia ya que 
+                    eso podría hacer que se desmoronase. En lugar de eso, lo
+                    ideal es esperar a que se cocine un lado antes de darle la
+                    vuelta.</li>
+                    <li>Una vez el salmón esté cocido a nuestro gusto, sacamos
+                    los filetes de la parrilla y los vamos colocando en platos.
+
+                    El toque final: cubrimos los filetes de salmón con la salsa de
+                    limón y espolvoreamos el cilantro picado por encima. Podemos decorar
+                    con rodajas de limón.
+                        
+                    Servimos el salmón inmediatamente y lo acompañamos con nuestra
+                    guarnición favorita, como arroz basmati, una ensalada de lechuga
+                    y tomate o verduras a la plancha.</li>
+                </ol>
+            </div>
+            <h2 class="h2-fondo"><center>-</center></h2>
+        </div>
+        <div class="tarjeta">
+            <input id="ch-3" type="checkbox">
+            <label for="ch-3"><h2 id="preguntas" class="h2-arriba"><center>Preguntas</center></h2></label>
+            <div class="contenido">
+                <h3><center>¿Qué la diferencia de otras dietas?</center></h3>
+                <p class="textos">
+                La ingesta abundante de grasas procedentes mayoritariamente del aceite
+                oliva y de otros alimentos como aceitunas, frutos secos y semillas oleaginosas
+                hacen única la dieta mediterránea en comparación con otros patrones de
+                alimentación saludable, como son la dieta japonesa, la vegetariana o la
+                de los países nórdicos.
+                Otro distintivo clave es que ajusta la gastronomía a la temporalidad de los
+                alimentos disponibles en las distintas estaciones, lo que supone una amplia
+                variedad de recetas gustosas tanto para diario como para las festividades
+                culturales y religiosas, días en los que se consumen alimentos especialmente
+                ricos en grasas y azúcares, junto con otras combinaciones de los utilizados a
+                diario. El exceso de días puntuales en el año no afecta a la dieta diaria que
+                es la que realmente tiene la capacidad de influir en nuestra salud.</p>
+            </div>
+            <div class="contenido">
+                <h3><center>¿Por qué ladieta mediterránea es patrimonio cultural de la humanidad?</center></h3>
+                <p class="textos">
+                La dieta mediterránea fue declarada Patrimonio de la Humanidad en 2010 como
+                cultura alimentaria que equilibra a las personas con su entorno natural, y
+                con su mundo social y cultural. Un estilo de vida que tiene muchos beneficios
+                para la salud de las personas y del medio ambiente, y que hay que salvaguardar
+                por el bien de las generaciones futuras y del planeta. La dieta mediterránea                    se considera un legado que debemos mantener y transmitir a las siguientes
+                generaciones.</p>
+            </div>
+            <div class="contenido">
+                <h3><center>¿Por qué es mejor comer alimentos frescos y de proximidad?</center></h3>
+                <p class="textos">
+                Los alimentos frescos, como las frutas, verduras, frutos secos, legumbres, etc., y
+                otros procesados como el aceite de oliva o el pan son alimentos básicos en la dieta
+                mediterránea. Es importante que se cultiven cerca de donde se consumen, ya que las
+                condiciones de recogida, almacenaje y transporte, por ejemplo, en las frutas y
+                verduras frescas, pueden determinar su calidad sensorial y nutritiva, su
+                durabilidad, y la huella medio ambiental asociada al transporte.
+                Con el consumo de alimentos frescos y procesados producidos en el entorno
+                contribuimos al desarrollo local, a proteger la biodiversidad de variedades
+                autóctonas, a la sostenibilidad del sistema alimentario, y también a facilitar
+                el acceso a precios justos para los productores y consumidores. Consumir
+                alimentos de temporada y producidos en el entorno de proximidad es uno de los
+                principios básicos de la dieta mediterránea.
+                </p>
+            </div>
+            <div class="contenido">
+                <h3><center>¿Cómo saber si sigo la dieta mediterránea?</center></h3>
+                <p class="textos">
+                    Una forma rápida de saber el grado de seguimiento o adherencia a la dieta
+                    mediterránea es responder a un sencillo cuestionario de 14 puntos que se
+                    desarrolló en el estudio PREDIMED (PREvención con DIeta MEDiterránea). Se
+                    deben cumplir los siguientes requisitos.
+                    <table id="rtabla">
+                        <thead>
+                            <tr>
+                                <center><h2>REQUISITOS</h2></center>
+                            </tr>
+                            <tr>
+                                <th class="rth">3 raciones de fruta y 2 de verdura a la semana</th>
+                                <th class="rth">3 veces a la semana legumbres, pescado o marisco y frutos secos</th>
+                                <th class="rth">Menos de 3 veces a la semana carne</th>
+                                <th class="rth">El aceite de oliva virgen extra es el que se usa para comer y cocinar</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </p>
+            </div>
+            <div class="contenido">
+                <h3><center>¿Por qué la dieta mediterránea es una dieta sostenible?</center></h3>
+                <p class="textos">
+                La Organización de las Naciones Unidas para la Agricultura y la Alimentación
+                (FAO) define la alimentación sostenible como “aquella con bajo impacto ambiental
+                que contribuye a la seguridad alimentaria y nutricional y a una vida saludable para
+                las generaciones presentes y futuras. La alimentación sostenible protege y respeta
+                la biodiversidad y los ecosistemas, es culturalmente aceptable, accesible,
+                económicamente justa y asequible; nutricionalmente adecuada, segura y saludable;
+                al tiempo que optimiza los recursos naturales y humanos”. La dieta mediterránea
+                protege la salud y el medio ambiente. Por tanto, es una dieta sostenible.
+                La sostenibilidad de los sistemas alimentarios requiere de la implicación de
+                todos los agentes sociales, desde las administraciones públicas a la industria
+                agroalimentaria, sin embargo, la persona consumidora es un agente clave en la
+                sostenibilidad, por su capacidad para realizar cambios en su alimentación hacia
+                patrones más saludables y sostenibles, con el menor desperdicio posible de
+                alimentos.
+                </p>
+            </div>
+            <h2 class="h2-fondo"><center>-</center></h2>
+            </div>
+            <center><img src="https://media3.giphy.com/media/XR2huD4XC8h20/200w.gif?cid=82a1493b71
+f9egl7j72t6rti1ghbos4kvupzn75dlofzdvva&ep=v1_gifs_related&rid=200w.gif&ct=g"
+                    alt="gif"></center>
+
+        </div>
+    </body>
+</html>
